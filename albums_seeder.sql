@@ -135,5 +135,6 @@ INSERT INTO albums
 (artist, name, release_date, sales, genre)
 VALUES ('Elton John','Goodbye Yellow Brick Road',1973,8.5,'rock, pop rock, glam rock');
 
+TRUNCATE table albums;
 
-SELECT * FROM albums;
+# SELECT * FROM albums;
